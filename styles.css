@@ -26,3 +26,24 @@ img {
     margin: auto;
     max-width: 150px;
 }
+.banner {
+    height: 300px;
+    width: 300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzIA4hlAxSkbY1dF8ppf8W4OhQYYhQ8-d0_X8Nnuivow&s=10");
+    background-repeat: no-repeat;
+}
+.hide {display: none;}
+
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+body {
+    padding: 20px;
+    margin: 20px;
+}
+
+a:hover {
+    opacity: 0.5;
+}
